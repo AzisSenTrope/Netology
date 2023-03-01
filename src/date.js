@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const yargs = require('yargs');
 const {hideBin} =  require('yargs/helpers');
 
@@ -45,7 +47,6 @@ function dateOutput(argv, add = false) {
 
     if (argv[DATE.DATE] || argv[CUT_DATE.DATE]) {
         const count = argv[DATE.DATE] || argv[CUT_DATE.DATE];
-        console.log('count ', count);
 
         if (typeof count === 'number') {
             add ? date.setDate(date.getDate() + count) : date.setDate(date.getDate() - count);
@@ -78,16 +79,18 @@ const argv = yargs(hideBin(process.argv))
 })
     .argv;
 
-console.log('argv ', argv);
-console.log('sd ', argv._)
-
 const key = argv?._.length ? argv?._[0] : '';
 
 switch (key) {
     case CURRENT: {
         const currentDate = new Date();
 
-        dateOutput(argv, currentDate);
+        const result = dateOutput(argv, currentDate);
+
+        if (!result) {
+            return;
+        }
+
 
         console.log(currentDate);
 
