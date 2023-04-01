@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16db894c-6cb0-4dbe-9f49-e68864d4e722" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/game.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/gameAnalysis.js" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+>>>>>>> 5149fd8 (DZ-1_3 Done)
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +49,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< HEAD
   <component name="RunManager" selected="npm.gameAnalysis">
+=======
+  <component name="RunManager" selected="npm.run-server">
+>>>>>>> 5149fd8 (DZ-1_3 Done)
     <configuration name="game" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -62,6 +74,19 @@
       <envs />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration name="run-server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run-server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+>>>>>>> 5149fd8 (DZ-1_3 Done)
     <configuration name="start-date-base" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -82,6 +107,7 @@
       <envs />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -94,11 +120,19 @@
     </configuration>
     <recent_temporary>
       <list>
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.run-server" />
+>>>>>>> 5149fd8 (DZ-1_3 Done)
         <item itemvalue="npm.gameAnalysis" />
         <item itemvalue="npm.game" />
         <item itemvalue="npm.start-game" />
         <item itemvalue="npm.start-date-base" />
+<<<<<<< HEAD
         <item itemvalue="npm.start" />
+=======
+>>>>>>> 5149fd8 (DZ-1_3 Done)
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +147,12 @@
       <workItem from="1677415315839" duration="11613000" />
       <workItem from="1677610180559" duration="6172000" />
       <workItem from="1677696974754" duration="4524000" />
+<<<<<<< HEAD
       <workItem from="1679229766751" duration="4421000" />
+=======
+      <workItem from="1679229766751" duration="6406000" />
+      <workItem from="1680355055975" duration="4128000" />
+>>>>>>> 5149fd8 (DZ-1_3 Done)
     </task>
     <servers />
   </component>
